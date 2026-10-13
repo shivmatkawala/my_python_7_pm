@@ -107,6 +107,9 @@ s1 = {1, 5, 2, 4, 0, 8, 1, 3}
 # print(11 not in s1)
 
         # Identity Operators:
+                # is
+        
+                # is not
 # x = [1, 2, 3]
 # y = x
 
@@ -114,24 +117,43 @@ s1 = {1, 5, 2, 4, 0, 8, 1, 3}
 # print(id(y))
 # print(x is y)
 
-x = [1, 2, 3]
+# x = [1, 2, 3]
 
 # y = x.copy()
-print(x, y)
-print(id(x))
-print(id(y))
-print(x is y)
-
-            # is
-
-            # is not
+# print(x, y)
+# print(id(x))
+# print(id(y))
+# print(x is y)
 
         # Logical Operators:
             # and
-            # or
-            # not
+# print(True and True and True)
+# print(True and True and True and False)
+# print(False and False and False)
 
-        # Ternary Operators
+            # or
+# print(True or True or True)
+# print(True or True or True or False)
+# print(False or False or True)
+
+            # not
+# print(not(True) and (False - False) or (True -True) and False and not(True))
+
+        # Ternary Operators:
+                # Single Line Expressions.
+                # Faster
+                # To get conditional output
+# Write a program to print the meaning of users favourate
+# primary color:
+# Primary: Red Blue Green
+                # Red => Sacrifice
+                # Blue => Peace
+                # Green => Nature
+
+# fav_prim_color = input("Enter your favourate primary color: ")
+# result = "Sacrifice" if fav_prim_color == "Red" else "Peace" if fav_prim_color == "Blue" else "Nature" if fav_prim_color == "Green" else "Invalid color"
+# print(result)
+
             # if
             # else
 
@@ -139,3 +161,12 @@ print(x is y)
             # &   (AND)
             # |   (OR)
             # ^   (XOR)
+# x = 25   # 11001
+# y = 35   # 100011
+
+# print(x & y)  #34
+# print(25 | 35)
+# print(25 ^ 35)
+
+# print(bin(59))
+# print(int("111011", 2))
