@@ -1,0 +1,15 @@
+# Types of Functions:
+
+        # No Argument Functions
+        # Single Argument Functions
+        # Positional Argument Functions
+        # Keyword Argument Functions
+        # Variable length Argument Functions
+        # Variable length Keyword Argument Functions
+
+
+# What is Argument:
+
+    # def function_name(arg1, arg2, arg3)    
+    # Arguments are nothing but input data to the functions.
+    

@@ -1,0 +1,44 @@
+# Functional Programming Paradigm:
+    # It is one of the fundamental yet very important
+    # Programming Paradigm.
+
+# Procedural:
+# Q1: Write a program to greet.
+# Q2: Write a program to print table of 7.
+# Q3: Write a program to reverse a string.
+
+print("Hello World)
+
+for num in range(1, 11):
+    print(num*7)
+
+str1 = input("Enter a string: ")
+print(str1[::-1])
+
+# Disadvantages:
+# Increase excution time, 
+# slowness in app, consumption of 
+# resources unnecessirily
+# No reusibility of code
+# Lots of code is duplicate
+
+
+#---------------- Dont Write the programmes in procedural way:
+
+# Use functional Programming:
+
+def greet():
+    print("HEllo World")
+
+def table_of_7():
+    for i in range(1, 11):
+        print(i*7)
+
+def reverse_string(str1):
+    print(str1[::-1])
+
+greet()
+table_of_7()
+reverse_string()
+greet()
+greet()
